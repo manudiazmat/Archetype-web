@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection — Drop 01 | ARCHETYPE</title>
+    <meta name="description"
+        content="Explore Archetype Drop 01 — precision-engineered performance apparel built on discipline and movement.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./shared.css">
+</head>
+
+<body class="page-body">
+
+    <header class="header" id="header">
+        <a href="./index.html" class="logo">Archetype</a>
+        <nav class="nav">
+            <a href="./collection.html" class="nav-link">Collection</a>
+            <a href="./campaign.html" class="nav-link">Campaign</a>
+            <a href="./worlds.html" class="nav-link">Performance Worlds</a>
+            <a href="./lab.html" class="nav-link">Lab</a>
+            <a href="./manifesto.html" class="nav-link">Manifesto</a>
+        </nav>
+        <div class="header-actions">
+            <a href="#" class="nav-link" id="cart-trigger">Cart (<span id="cart-count">0</span>)</a>
+            <a href="#" class="btn btn-white">Join the Circle</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero" id="page-hero-collection">
+            <div class="page-hero-bg">
+                <img src="assets/images/zapatilla_fondo.png" alt="Collection Hero">
+            </div>
+            <div class="page-hero-content container">
+                <span class="page-hero-tag">Drop 01 — 2026</span>
+                <h1 class="page-hero-title">COLLECTION</h1>
+                <p class="page-hero-sub">Precision engineering. Disciplined aesthetics.</p>
+            </div>
+        </section>
+
+        <!-- Breadcrumb -->
+        <div class="page-breadcrumb">
+            <a href="./index.html">Home</a>
+            <span>›</span>
+            <span>Collection</span>
+        </div>
+
+        <!-- Products -->
+        <section class="section-padding container">
+            <div class="collection-filter-bar reveal">
+                <div class="filter-tabs">
+                    <button class="filter-tab active" id="filter-all">All</button>
+                    <button class="filter-tab" id="filter-tops">Tops</button>
+                    <button class="filter-tab" id="filter-bottoms">Bottoms</button>
+                    <button class="filter-tab" id="filter-outerwear">Outerwear</button>
+                    <button class="filter-tab" id="filter-footwear">Footwear</button>
+                </div>
+                <select class="sort-select" id="sort-select">
+                    <option>Sort: Featured</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest</option>
+                </select>
+            </div>
+
+            <div class="collection-page-grid">
+
+                <!-- Product 1 -->
+                <div class="product-card reveal"
+                    data-id="1"
+                    data-name="Technical Shirt"
+                    data-price="60"
+                    data-badge="New"
+                    data-desc="Lightweight performance jersey with moisture management. Flat-lock stitching eliminates chafe across all contact zones. Designed for high-output training in any climate."
+                    data-sizes="XS,S,M,L,XL"
+                    data-image="assets/images/product_shirt_new.png">
+                    <div class="product-image img-reveal">
+                        <span class="product-badge">New</span>
+                        <img src="assets/images/product_shirt_new.png" alt="Technical Shirt">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Technical Shirt</h3>
+                            <span class="product-price">60€</span>
+                        </div>
+                        <p class="product-desc">Lightweight performance jersey with moisture management.</p>
+                        <div class="product-sizes">
+                            <span class="product-size">XS</span>
+                            <span class="product-size">S</span>
+                            <span class="product-size">M</span>
+                            <span class="product-size">L</span>
+                            <span class="product-size">XL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card reveal" style="transition-delay: 0.1s"
+                    data-id="2"
+                    data-name="Performance Hoodie"
+                    data-price="120"
+                    data-badge=""
+                    data-desc="Structured warmth. Clean finish. Dual-layer fleece interior engineered for thermal regulation during rest and movement. Relaxed silhouette, zero excess."
+                    data-sizes="S,M,L,XL"
+                    data-image="assets/images/product_hoodie_new.png">
+                    <div class="product-image img-reveal">
+                        <img src="assets/images/product_hoodie_new.png" alt="Performance Hoodie">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Performance Hoodie</h3>
+                            <span class="product-price">120€</span>
+                        </div>
+                        <p class="product-desc">Structured warmth. Clean finish. Dual-layer fleece interior.</p>
+                        <div class="product-sizes">
+                            <span class="product-size">S</span>
+                            <span class="product-size">M</span>
+                            <span class="product-size">L</span>
+                            <span class="product-size">XL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card reveal" style="transition-delay: 0.2s"
+                    data-id="3"
+                    data-name="Technical Pant"
+                    data-price="110"
+                    data-badge=""
+                    data-desc="Articulated fit engineered for maximum range of motion. Four-way stretch shell with tapered cut. Deep side pockets. Secure zip back pocket."
+                    data-sizes="XS,S,M,L"
+                    data-image="assets/images/product_pant_new.png">
+                    <div class="product-image img-reveal">
+                        <img src="assets/images/product_pant_new.png" alt="Technical Pant">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Technical Pant</h3>
+                            <span class="product-price">110€</span>
+                        </div>
+                        <p class="product-desc">Articulated fit engineered for maximum range of motion.</p>
+                        <div class="product-sizes">
+                            <span class="product-size">XS</span>
+                            <span class="product-size">S</span>
+                            <span class="product-size">M</span>
+                            <span class="product-size">L</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card reveal" style="transition-delay: 0.3s"
+                    data-id="4"
+                    data-name="Archetype Runner"
+                    data-price="180"
+                    data-badge="Bestseller"
+                    data-desc="Propulsive cushioning system with adaptive midsole geometry. Carbon-composite plate. Breathable engineered mesh upper built for race-day performance and daily training."
+                    data-sizes="38,39,40,41,42,43"
+                    data-image="assets/images/product_runner_new.png">
+                    <div class="product-image img-reveal">
+                        <span class="product-badge">Bestseller</span>
+                        <img src="assets/images/product_runner_new.png" alt="Archetype Runner">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Archetype Runner</h3>
+                            <span class="product-price">180€</span>
+                        </div>
+                        <p class="product-desc">Propulsive cushioning system with adaptive midsole geometry.</p>
+                        <div class="product-sizes">
+                            <span class="product-size">38</span>
+                            <span class="product-size">39</span>
+                            <span class="product-size">40</span>
+                            <span class="product-size">41</span>
+                            <span class="product-size">42</span>
+                            <span class="product-size">43</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card reveal" style="transition-delay: 0.4s"
+                    data-id="5"
+                    data-name="Compression Layer"
+                    data-price="75"
+                    data-badge=""
+                    data-desc="Second-skin precision. Engineered compression zones mapped to key muscle groups. Moisture-wicking base fabric. Seamless underarm construction for unrestricted movement."
+                    data-sizes="XS,S,M,L,XL"
+                    data-image="assets/images/compression_layer.png">
+                    <div class="product-image img-reveal">
+                        <img src="assets/images/compression_layer.png" alt="Compression Layer">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Compression Layer</h3>
+                            <span class="product-price">75€</span>
+                        </div>
+                        <p class="product-desc">Second-skin precision. Engineered compression zones.</p>
+                        <div class="product-sizes">
+                            <span class="product-size">XS</span>
+                            <span class="product-size">S</span>
+                            <span class="product-size">M</span>
+                            <span class="product-size">L</span>
+                            <span class="product-size">XL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card reveal" style="transition-delay: 0.5s"
+                    data-id="6"
+                    data-name="Training Jacket"
+                    data-price="165"
+                    data-badge="Limited"
+                    data-desc="Wind-resistant shell. Bonded seams for a clean, technical finish. Minimal silhouette engineered to move with the body. Limited drop — 200 units worldwide."
+                    data-sizes="S,M,L"
+                    data-image="assets/images/training_jacket.png">
+                    <div class="product-image img-reveal">
+                        <span class="product-badge">Limited</span>
+                        <img src="assets/images/training_jacket.png" alt="Training Jacket">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Training Jacket</h3>
+                            <span class="product-price">165€</span>
+                        </div>
+                        <p class="product-desc">Wind-resistant shell. Bonded seams. Minimal silhouette.</p>
+                        <div class="product-sizes">
+                            <span class="product-size">S</span>
+                            <span class="product-size">M</span>
+                            <span class="product-size">L</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Manifesto Banner -->
+        <section class="manifesto section-padding" style="margin: 0;">
+            <div class="manifesto-bg-text">
+                <span>ARCHETYPE</span>
+                <span>DISCIPLINE</span>
+                <span>PRECISION</span>
+            </div>
+            <div class="container manifesto-content reveal">
+                <span class="accent-line" style="margin: 0 auto 2rem;"></span>
+                <h2 class="subtitle manifesto-title">DROP 01 — LIMITED RELEASE</h2>
+                <h3 class="title-section manifesto-quote">ENGINEERED<br>FOR THE DISCIPLINED.</h3>
+                <a href="./manifesto.html" class="btn btn-white" style="margin-top: 4rem;">Read the Manifesto</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo">Archetype</span>
+                    <p>Adidas signature sub-brand</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">SOCIAL</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Instagram</a>
+                        <a href="#" class="footer-link">TikTok</a>
+                        <a href="#" class="footer-link">YouTube</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-title">LEGAL</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                        <a href="#" class="footer-link">Terms of Service</a>
+                        <a href="#" class="footer-link">Cookies</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-title">JOIN THE PRIVATE CIRCLE</h4>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Email Address">
+                        <button type="submit" class="newsletter-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Archetype. All rights reserved.</span>
+                <span>Designed for discipline.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======================== PRODUCT QUICK VIEW MODAL ======================== -->
+    <div class="qv-overlay" id="qv-overlay" role="dialog" aria-modal="true" aria-label="Product Quick View">
+        <div class="qv-backdrop" id="qv-backdrop"></div>
+        <div class="qv-modal" id="qv-modal">
+            <button class="qv-close" id="qv-close" aria-label="Close">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M1 1L15 15M15 1L1 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+            <div class="qv-inner">
+                <div class="qv-image-col">
+                    <div class="qv-image-wrap">
+                        <span class="qv-badge" id="qv-badge"></span>
+                        <img id="qv-img" src="" alt="">
+                    </div>
+                </div>
+                <div class="qv-info-col">
+                    <p class="qv-overline">Drop 01 — 2026</p>
+                    <h2 class="qv-name" id="qv-name"></h2>
+                    <p class="qv-price" id="qv-price"></p>
+                    <p class="qv-desc" id="qv-desc"></p>
+                    <div class="qv-divider"></div>
+                    <p class="qv-size-label">Select Size</p>
+                    <div class="qv-sizes" id="qv-sizes"></div>
+                    <p class="qv-size-error" id="qv-size-error">Please select a size before adding to cart.</p>
+                    <button class="qv-add-btn" id="qv-add-btn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+                        Add to Cart
+                    </button>
+                    <p class="qv-shipping-note">Free shipping on orders over 150€ · Returns within 30 days</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================== CART DRAWER ======================== -->
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart-backdrop" id="cart-backdrop"></div>
+        <div class="cart-drawer" id="cart-drawer">
+            <div class="cart-header">
+                <h3 class="cart-title">Your Cart</h3>
+                <button class="cart-close" id="cart-close" aria-label="Close cart">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M1 1L15 15M15 1L1 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="cart-items" id="cart-items"></div>
+            <div class="cart-footer">
+                <div class="cart-subtotal">
+                    <span>Subtotal</span>
+                    <span id="cart-subtotal">0€</span>
+                </div>
+                <p class="cart-shipping-note">Shipping calculated at checkout</p>
+                <button class="cart-checkout-btn" id="cart-checkout-btn">Proceed to Checkout</button>
+                <button class="cart-continue-btn" id="cart-continue-btn">Continue Shopping</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./subpage.js"></script>
+</body>
+
+</html>

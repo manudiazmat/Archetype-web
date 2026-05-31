@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../archetype adds"
+		},
+		{
+			"path": "../portfolio web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Archetype web"
+	}
+}
